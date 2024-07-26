@@ -80,8 +80,8 @@ const Projects = (props: Props) => {
                         <div className="col-span-3 flex flex-col gap-3 w-full">
                             <p className="text-2xl font-bold text-white">{project.projectName}{project.id}</p>
                             <p className="text-md text-white">{project.role}</p>
-                            <div className="text-sm text-white flex flex-row gap-3 flex-wrap">{project.skills.map((skill) => (
-                                <Badge variant="secondary" className='uppercase hidden md:block'>{skill}</Badge>
+                            <div className="text-sm text-white flex flex-row gap-3 flex-wrap">{project.skills.map((skill, index) => (
+                                <Badge key={index} variant="secondary" className='uppercase hidden md:block'>{skill}</Badge>
                             ))}</div>
                         </div>
                     </div>
