@@ -97,7 +97,7 @@ const PersonalCard = (props: Props) => {
                 <ShimmerButton className="shadow-2xl mt-6 w-full max-w-32">
                     
                     <span className="whitespace-pre-wrap text-center text-sm font-medium leading-none tracking-tight text-white dark:from-white dark:to-slate-900/10 lg:text-lg">
-                        Let's chat
+                    Let&apos;s chat
                     </span>
                 
                 </ShimmerButton>

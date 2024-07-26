@@ -70,7 +70,7 @@ const Contact = (props: Props) => {
   return (
     <section id='contact' className="min-h-screen">
         <BoxReveal boxColor={"#000000"} duration={0.5}>
-            <h1 className="uppercase text-5xl  md:text-8xl text-white font-[800] my-12">Let's Work<br /> <span className="text-[#b6b4bd33]">together</span></h1>
+            <h1 className="uppercase text-5xl  md:text-8xl text-white font-[800] my-12">Let&apos;s Work<br /> <span className="text-[#b6b4bd33]">together</span></h1>
         </BoxReveal>
             
         <Form {...form}>
