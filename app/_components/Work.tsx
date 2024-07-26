@@ -11,7 +11,7 @@ type Props = {}
 
 const works = [
     {
-        company: "Folkekraft AS",
+        company: "Folkekraft AS test",
         jobTitle: "Driftsansvalig",
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident reiciendis consectetur vero, laboriosam repudiandae adipisci! Ratione enim sequi odio sapiente provident nulla voluptas, quae eaque veritatis, error eos consequuntur id.",
         timeFrame: "Mar 2023 - Present",
